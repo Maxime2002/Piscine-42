@@ -1,0 +1,4 @@
+#!/bin/sh
+
+find -type f -and \( -name '*~' -or  -name '#*#' \) -print -delete
+
